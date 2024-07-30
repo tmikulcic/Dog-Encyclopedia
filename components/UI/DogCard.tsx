@@ -11,7 +11,7 @@ type DogCardProps = {
 const DogCard: React.FC<DogCardProps> = ({ dog }) => {
   return (
     <li className={styles.card}>
-      <Link href='/'>
+      <Link href={`/${dog.breed}`}>
         <Image className={styles.cardImage} src={imagePortrait} alt='dog' />
         <p className={styles.dogBreed}>{dog.breed}</p>
         <p>{dog.size}</p>
