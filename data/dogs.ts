@@ -1,9 +1,9 @@
-type Dogs = {
+export type Dogs = {
   breed: string;
   size: 'Small' | 'Medium' | 'Large' | 'Extra Large';
 };
 
-export const dogs: Dogs[] = [
+export const dogsData: Dogs[] = [
   { breed: 'Affenpinscher', size: 'Small' },
   { breed: 'Afghan Hound', size: 'Large' },
   { breed: 'Airedale Terrier', size: 'Large' },
