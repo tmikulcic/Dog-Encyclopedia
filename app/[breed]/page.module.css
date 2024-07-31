@@ -1,0 +1,31 @@
+.breedInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.breedInfo h2 {
+  font-size: 1.5rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.breedImage {
+  width: auto;
+  height: auto;
+  border-radius: 1000px;
+}
+
+.imageName {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.categories {
+  display: flex;
+}
+
+.category {
+  flex: 1;
+}
