@@ -1,7 +1,7 @@
 export type Dogs = {
   breed: string;
   size: 'Small' | 'Medium' | 'Large' | 'Extra Large';
-  overview?: string;
+  overview: string;
 };
 
 export const dogsData: Dogs[] = [
@@ -395,6 +395,163 @@ export const dogsData: Dogs[] = [
     overview:
       'The Bullmastiff is an extra-large breed known for its protective nature and powerful physique. They are intelligent, loyal, and require regular exercise and grooming to manage their short coat. They make excellent guard dogs and thrive in spacious environments.',
   },
+  {
+    breed: 'Cairn Terrier',
+    size: 'Small',
+    overview:
+      'The Cairn Terrier is a small breed known for its distinctive wiry coat and lively personality. It is intelligent, brave, and requires regular exercise and grooming. This breed is well-suited for families and makes a good watchdog.',
+  },
+  {
+    breed: 'Canaan Dog',
+    size: 'Medium',
+    overview:
+      'The Canaan Dog is a medium-sized breed known for its versatility and alert nature. It excels in various roles including herding and guarding. This breed is intelligent, energetic, and requires regular exercise and mental stimulation.',
+  },
+  {
+    breed: 'Cane Corso',
+    size: 'Extra Large',
+    overview:
+      'The Cane Corso is an extra-large breed known for its strength and protective nature. It is loyal, intelligent, and requires ample exercise and training. This breed has a short coat that is easy to maintain and makes an excellent guard dog and family companion.',
+  },
+  {
+    breed: 'Cardigan Welsh Corgi',
+    size: 'Medium',
+    overview:
+      'The Cardigan Welsh Corgi is a medium-sized breed known for its herding abilities and distinctive long tail. It is intelligent, energetic, and requires regular exercise. This breed is friendly, loyal, and makes a great family companion.',
+  },
+  {
+    breed: 'Carolina Dog',
+    size: 'Medium',
+    overview:
+      'The Carolina Dog is a medium-sized breed known for its wild appearance and adaptability. It is intelligent, independent, and requires regular exercise and mental stimulation. This breed is well-suited for active families and outdoor activities.',
+  },
+  {
+    breed: 'Catahoula Leopard Dog',
+    size: 'Medium',
+    overview:
+      'The Catahoula Leopard Dog is a medium-sized breed known for its distinctive coat patterns and herding abilities. It is intelligent, energetic, and requires regular exercise and mental stimulation. This breed makes a good working dog and family companion.',
+  },
+  {
+    breed: 'Caucasian Shepherd Dog',
+    size: 'Extra Large',
+    overview:
+      'The Caucasian Shepherd Dog is an extra-large breed known for its impressive size and guarding instincts. It is loyal, protective, and requires ample space and regular exercise. This breed has a thick coat that needs regular grooming and is well-suited for guarding.',
+  },
+  {
+    breed: 'Cavalier King Charles Spaniel',
+    size: 'Small',
+    overview:
+      'The Cavalier King Charles Spaniel is a small breed known for its elegant appearance and affectionate nature. It is intelligent, friendly, and requires minimal grooming. This breed makes a charming family companion and enjoys being a lap dog.',
+  },
+  {
+    breed: 'Central Asian Shepherd Dog',
+    size: 'Extra Large',
+    overview:
+      'The Central Asian Shepherd Dog is an extra-large breed known for its strength and guarding abilities. It is loyal, protective, and requires ample space and regular exercise. This breed has a dense coat that needs regular grooming and is well-suited for guarding and protection.',
+  },
+  {
+    breed: 'Cesky Terrier',
+    size: 'Small',
+    overview:
+      'The Cesky Terrier is a small breed known for its distinctive silky coat and friendly personality. It is intelligent, energetic, and requires regular grooming. This breed makes a good family companion and excels in various dog sports.',
+  },
+  {
+    breed: 'Chesapeake Bay Retriever',
+    size: 'Large',
+    overview:
+      'The Chesapeake Bay Retriever is a large breed known for its strength and excellent water-retrieving abilities. It is intelligent, energetic, and requires regular exercise. This breed has a dense coat that needs minimal grooming and makes a good family companion and working dog.',
+  },
+  {
+    breed: 'Chihuahua',
+    size: 'Small',
+    overview:
+      'The Chihuahua is a small breed known for its large personality and distinctive appearance. It is intelligent, alert, and requires minimal grooming. This breed makes a good companion for families and individuals alike and is well-suited for apartment living.',
+  },
+  {
+    breed: 'Chinese Crested',
+    size: 'Small',
+    overview:
+      'The Chinese Crested is a small breed known for its unique hairless appearance and affectionate nature. It is intelligent, lively, and requires minimal grooming. This breed makes a charming family companion and excels in agility and obedience.',
+  },
+  {
+    breed: 'Chinese Shar-Pei',
+    size: 'Medium',
+    overview:
+      'The Chinese Shar-Pei is a medium-sized breed known for its distinctive wrinkled coat and calm demeanor. It is loyal, intelligent, and requires regular grooming to maintain its coat. This breed is well-suited for families and makes a good companion.',
+  },
+  {
+    breed: 'Chinook',
+    size: 'Medium',
+    overview:
+      'The Chinook is a medium-sized breed known for its strength and sledding abilities. It is intelligent, friendly, and requires regular exercise and mental stimulation. This breed has a dense coat that needs regular grooming and makes a good family companion.',
+  },
+  {
+    breed: 'Chow Chow',
+    size: 'Medium',
+    overview:
+      'The Chow Chow is a medium-sized breed known for its distinctive lion-like mane and aloof personality. It is intelligent, loyal, and requires regular grooming to maintain its coat. This breed makes a good companion for families and is known for its unique appearance.',
+  },
+  {
+    breed: 'Cirneco dell’Etna',
+    size: 'Medium',
+    overview:
+      'The Cirneco dell’Etna is a medium-sized breed known for its agility and hunting skills. It is intelligent, energetic, and requires regular exercise and mental stimulation. This breed has a short coat that is easy to maintain and makes a good family companion.',
+  },
+  {
+    breed: 'Clumber Spaniel',
+    size: 'Large',
+    overview:
+      'The Clumber Spaniel is a large breed known for its gentle nature and excellent retrieving abilities. It is intelligent, affectionate, and requires regular exercise and grooming. This breed makes a good family companion and excels in various dog sports.',
+  },
+  {
+    breed: 'Cocker Spaniel',
+    size: 'Medium',
+    overview:
+      'The Cocker Spaniel is a medium-sized breed known for its affectionate nature and beautiful coat. It is intelligent, energetic, and requires regular grooming. This breed makes a good family companion and excels in obedience and agility.',
+  },
+  {
+    breed: 'Collie',
+    size: 'Large',
+    overview:
+      'The Collie is a large breed known for its intelligence and herding abilities. It has a distinctive long coat and a gentle, loyal personality. This breed requires regular grooming and exercise and makes a great family companion and working dog.',
+  },
+  {
+    breed: 'Coton de Tulear',
+    size: 'Small',
+    overview:
+      'The Coton de Tulear is a small breed known for its cotton-like coat and cheerful disposition. It is intelligent, affectionate, and requires regular grooming. This breed makes a charming family companion and excels in various dog sports.',
+  },
+  {
+    breed: 'Croatian Sheepdog',
+    size: 'Medium',
+    overview:
+      'The Croatian Sheepdog is a medium-sized breed known for its herding abilities and distinctive curly coat. It is intelligent, energetic, and requires regular exercise and grooming. This breed excels in various dog sports and makes a good family companion.',
+  },
+  {
+    breed: 'Curly-Coated Retriever',
+    size: 'Large',
+    overview:
+      'The Curly-Coated Retriever is a large breed known for its distinctive curly coat and excellent retrieving abilities. It is intelligent, energetic, and requires regular exercise. This breed has a low-maintenance coat and makes a good family companion and working dog.',
+  },
+  {
+    breed: 'Czechoslovakian Vlcak',
+    size: 'Large',
+    overview:
+      'The Czechoslovakian Vlcak is a large breed known for its wolf-like appearance and strong working abilities. It is intelligent, energetic, and requires regular exercise and mental stimulation. This breed has a dense coat that needs regular grooming and excels in various dog sports.',
+  },
+  {
+    breed: 'Dachshund',
+    size: 'Small',
+    overview:
+      'The Dachshund is a small breed known for its distinctive long body and short legs. It is intelligent, lively, and requires regular exercise. This breed makes a good family companion and excels in various dog sports, including hunting and agility.',
+  },
+  {
+    breed: 'Dalmatian',
+    size: 'Large',
+    overview:
+      'The Dalmatian is a large breed known for its distinctive black or liver-spotted coat and energetic personality. It is intelligent, lively, and requires regular exercise. This breed makes a good family companion and excels in various dog sports.',
+  },
+
   {
     breed: 'Dandie Dinmont Terrier',
     size: 'Small',

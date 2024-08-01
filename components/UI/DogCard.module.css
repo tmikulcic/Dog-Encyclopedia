@@ -9,7 +9,7 @@
     width: 80%;
   }
   .cardImage {
-    height: 300px;
+    height: 200px;
   }
 }
 
@@ -18,7 +18,7 @@
     width: 45%;
   }
   .cardImage {
-    height: 350px;
+    height: 200px;
   }
 }
 
@@ -27,13 +27,13 @@
     width: 30%;
   }
   .cardImage {
-    height: 400px;
+    height: 200px;
   }
 }
 
 @media (min-width: 1200px) {
   .card {
-    width: 16rem;
+    width: 20rem;
   }
 }
 
@@ -47,5 +47,9 @@
 }
 
 .dogBreed {
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+.dogBreedOverview {
+  font-size: 0.75rem;
 }

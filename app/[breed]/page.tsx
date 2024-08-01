@@ -11,7 +11,6 @@ type BreedPageProps = {
 const BreedPage = async ({ params }: { params: BreedPageProps }) => {
   const breed = params.breed.replace(/%20/g, ' ').toLowerCase();
   const breedData = await fetchDog(breed);
-  console.log(breedData);
 
   return (
     <MainContainer>
