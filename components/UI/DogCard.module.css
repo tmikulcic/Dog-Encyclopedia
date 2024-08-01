@@ -1,7 +1,10 @@
 .card {
+  padding: 0.5rem;
   margin: 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
+  border-bottom-width: 4px;
+  border-bottom-color: gold;
 }
 
 @media (min-width: 320px) {
@@ -37,17 +40,24 @@
   }
 }
 
-.card p {
+.titleBadge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breedSizeBadge {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   margin: 0.5rem;
-}
-
-.cardImage {
-  border-radius: 8px 8px 0px 0px;
-  object-fit: cover;
-}
-
-.dogBreed {
+  background-color: red;
+  border-radius: 50%;
   font-size: 1rem;
+  text-align: center;
 }
 
 .dogBreedOverview {
