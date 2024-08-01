@@ -1,0 +1,14 @@
+.activeBox,
+.inactiveBox {
+  width: 40px;
+  height: 7.5px;
+  margin: 1px;
+}
+
+.activeBox {
+  background-color: gold;
+}
+
+.inactiveBox {
+  background-color: rgb(237 237 237);
+}

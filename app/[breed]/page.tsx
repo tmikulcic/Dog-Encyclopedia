@@ -2,6 +2,7 @@ import Image from 'next/image';
 import MainContainer from '@/components/UI/MainContainer';
 import { fetchDog } from '@/lib/api';
 import styles from './page.module.css';
+import StatBar from '@/components/StatBar/StatBar';
 
 type BreedPageProps = {
   breed: string;
@@ -21,42 +22,36 @@ const BreedPage = async ({ params }: { params: BreedPageProps }) => {
         </div>
         <div className={styles.categories}>
           <div className={styles.category}>
-            <h2>Behavioral Traits</h2>
-            <ul>
-              <li>Good with Children: {breedData[0].good_with_children}</li>
-              <li>Good with Other Dogs: {breedData[0].good_with_other_dogs}</li>
-              <li>Good with Strangers: {breedData[0].good_with_strangers}</li>
-              <li>Playfulness: {breedData[0].playfulness}</li>
-              <li>Protectiveness: {breedData[0].protectiveness}</li>
-              <li>Trainability: {breedData[0].trainability}</li>
-            </ul>
+            <h3>Behavioral Traits</h3>
+            <StatBar title='Good with Children' value={breedData[0].good_with_children} />
+            <StatBar title='Good with Other Dogs' value={breedData[0].good_with_other_dogs} />
+            <StatBar title='Good with Strangers' value={breedData[0].good_with_strangers} />
+            <StatBar title='Playfulness' value={breedData[0].playfulness} />
+            <StatBar title='Protectiveness' value={breedData[0].protectiveness} />
+            <StatBar title='Trainability' value={breedData[0].trainability} />
           </div>
 
           <div className={styles.category}>
-            <h2>Physical and Health Traits</h2>
-            <ul>
-              <li>Shedding: {breedData[0].shedding}</li>
-              <li>Grooming: {breedData[0].grooming}</li>
-              <li>Drooling: {breedData[0].drooling}</li>
-              <li>Coat Length: {breedData[0].coat_length}</li>
-              <li>Barking: {breedData[0].barking}</li>
-              <li>Min Life Expectancy: {breedData[0].min_life_expectancy} years</li>
-              <li>Max Life Expectancy: {breedData[0].max_life_expectancy} years</li>
-            </ul>
+            <h3>Physical and Health Traits</h3>
+            <StatBar title='Shedding' value={breedData[0].shedding} />
+            <StatBar title='Grooming' value={breedData[0].grooming} />
+            <StatBar title='Drooling' value={breedData[0].drooling} />
+            <StatBar title='Coat Length' value={breedData[0].coat_length} />
+            <StatBar title='Barking' value={breedData[0].barking} />
+            <StatBar title='Min Life Expectancy' value={breedData[0].min_life_expectancy} />
+            <StatBar title='Max Life Expectancy' value={breedData[0].max_life_expectancy} />
           </div>
 
           <div className={styles.category}>
-            <h2>Size</h2>
-            <ul>
-              <li>Max Height (Male): {breedData[0].max_height_male} inches</li>
-              <li>Max Height (Female): {breedData[0].max_height_female} inches</li>
-              <li>Max Weight (Male): {breedData[0].max_weight_male} lbs</li>
-              <li>Max Weight (Female): {breedData[0].max_weight_female} lbs</li>
-              <li>Min Height (Male): {breedData[0].min_height_male} inches</li>
-              <li>Min Height (Female): {breedData[0].min_height_female} inches</li>
-              <li>Min Weight (Male): {breedData[0].min_weight_male} lbs</li>
-              <li>Min Weight (Female): {breedData[0].min_weight_female} lbs</li>
-            </ul>
+            <h3>Size</h3>
+            <StatBar title='Max Height (Male)' value={breedData[0].max_height_male} />
+            <StatBar title='Max Height (Female)' value={breedData[0].max_height_female} />
+            <StatBar title='Max Weight (Male)' value={breedData[0].max_weight_male} />
+            <StatBar title='Max Weight (Female)' value={breedData[0].max_weight_female} />
+            <StatBar title='Min Height (Male)' value={breedData[0].min_height_male} />
+            <StatBar title='Min Height (Female)' value={breedData[0].min_height_female} />
+            <StatBar title='Min Weight (Male)' value={breedData[0].min_weight_male} />
+            <StatBar title='Min Weight (Female)' value={breedData[0].min_weight_female} />
           </div>
         </div>
       </div>
